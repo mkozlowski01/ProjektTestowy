@@ -9,7 +9,8 @@ namespace Projekt1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Wynik:" + Kalkulator.Licz(5,7));
+            Console.ReadLine();
         }
     }
 }
